@@ -1,3 +1,9 @@
-# portfolio-website
-Website containing case studies and all my creative works!
-Built in HTML and CSS
+## portfolio-website
+
+Website containing case studies and all my creative works:
+https://jojochen25.github.io/portfolio-website/jojoc.html
+
+Languages: HTML and CSS
+
+
+
