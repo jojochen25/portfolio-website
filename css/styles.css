@@ -18,8 +18,8 @@
 
 .topnav {
     overflow:hidden;
-
 }
+
 .topnav a {
     
     color:darkolivegreen;
@@ -43,8 +43,6 @@
     font-size:50px; 
     /*margin:10px;*/
     padding-top: 10rem;
-    
-    
 }
 
 /*A product designer, digital artist,..*/
@@ -68,4 +66,17 @@
 .image-1 {
     width:600px;
     height:auto;
+    box-shadow: 0 0 50px #ccc;
+}
+
+.project {
+    display: grid;
+    grid-template-columns: 55% auto;
+    padding-top: 2rem;
+    text-align: left;
+}
+
+.project-text {
+    line-height:1.8rem;
+    padding: 1.5rem;
 }
