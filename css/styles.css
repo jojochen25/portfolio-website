@@ -18,8 +18,8 @@
 
 .topnav {
     overflow:hidden;
-
 }
+
 .topnav a {
     
     color:darkolivegreen;
@@ -78,3 +78,25 @@
     line-height:1.8rem;
     padding: 1.5rem;
 }
+
+#gallery {
+    line-height:0;
+    -webkit-column-count:5; /* split it into 5 columns */
+    -webkit-column-gap:5px; /* give it a 5px gap between columns */
+    -moz-column-count:5;
+    -moz-column-gap:5px;
+    column-count:5;
+    column-gap:5px;
+ }
+
+ #gallery img {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom:5px; /* to match column gap */
+    transition: filter 2s; /* animation */
+    filter: grayscale(100%);
+ }
+
+ #gallery img:hover {
+    filter:none;
+ }
